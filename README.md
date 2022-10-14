@@ -11,12 +11,19 @@ These are tips for using Zotero to generate citations/bibliographies that are re
 ### Categories
 - EPI report item type = Report
 - EPI blog item type = Blog Post, with Extra field `publisher: Economic Policy Institute`
+- Data source item type = Document, with Extra field `type: dataset`
+- NBER working paper item type = Journal Article, with Publication field blank and Volume field `National Bureau of Economic Research (NBER) Working Paper XXXXX`
 
-# Problems
-EPI prefers hyperlinked titles to articles, reports, etc., but this is currently impossible with Zotero for Word and Google Docs.
+## Problems
+- No perfect solution to have both abbreviations and full name of a government agency when it the author. Try using first name = abbreviation, last name = full name. This will nail the in-text citation abbreviation but will fudge the bibliography format a bit.
 
-## Changes from the 17th edition of the Chicago author-date style
-### Bibliography changes
+- EPI prefers hyperlinked titles to articles, reports, etc., but this is currently impossible with Zotero for Word and Google Docs.
+
+- Generated blog post style not completely consistent with EPI style, which depends on context
+
+- Not sure it is worth the trouble to include data sources in Zotero. EPI's data source citation style depends on context.
+
+## Bibliography differences from the 17th edition Chicago author-date style
 - journal article issue numbers as "no. 4" instead of "(4)"
 - same authored bibliography sources ordered by (coarser) year instead of (finer) date, forcing sources with identical author-year to be sorted by title
 - reports and documents include month and year

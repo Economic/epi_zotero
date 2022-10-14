@@ -280,18 +280,16 @@
         <choose>
           <if variable="volume">
             <text variable="volume" prefix=" "/>
-            <group prefix=", no. ">
-              <choose>
-                <if variable="issue">
-                  <text variable="issue"/>
-                </if>
-                <else>
-                  <date variable="issued">
-                    <date-part name="month"/>
-                  </date>
-                </else>
-              </choose>
-            </group>
+            <choose>
+              <if variable="issue">
+                <text variable="issue" prefix=", no. "/>
+              </if>
+              <else>
+                <date variable="issued">
+                  <date-part name="month" prefix=", "/>
+                </date>
+              </else>
+            </choose>
           </if>
           <else-if variable="issue">
             <group delimiter=" " prefix=", ">
