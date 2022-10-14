@@ -27,5 +27,6 @@ These are tips for using Zotero to generate citations/bibliographies that are re
 - journal article issue numbers as "no. 4" instead of "(4)"
 - same authored bibliography sources ordered by (coarser) year instead of (finer) date, forcing sources with identical author-year to be sorted by title
 - reports and documents include month and year
+- do not group references and subtitute &#8212;&#8212;&#8212; for authors' names
 
 
